@@ -11,7 +11,7 @@ function increment() {
         CURRENT_NUMBER_WRAPPER.innerHTML = contador;
         if ((contador >= 0)) {        
             CURRENT_NUMBER_WRAPPER.style.color = "#fff"
-        } if (contador === 10) {
+        } if (contador === 1000) {
             alert("Você clicou muito")
             contador = 0
         }
